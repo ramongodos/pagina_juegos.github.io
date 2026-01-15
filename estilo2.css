@@ -1,0 +1,134 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #eef1f7;
+        margin: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 30px;
+        text-align: center;
+    }
+header {
+  background-color: #4b5d73;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 20px;
+  background-color: #dbe3ee;
+}
+
+footer {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+ol{
+            margin-left: 20%; 
+        }
+li {
+            text-align: left;
+            margin-bottom: 12px;
+            margin-right: 25px;
+        }
+ul{
+        margin-left: 20%; 
+    }
+a {
+  color: #354f8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(120, 180, 255);
+  text-decoration: underline;
+}
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #8899aa;
+}
+
+button {
+  background-color: #354f8a;
+  color: white;
+  padding: 12px;
+  border: none;
+}
+
+.contenido-juego {
+        max-width: auto;
+        margin: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+.video{
+            margin-top: 20px;
+            margin: auto;
+            max-width: 480px;
+            background-color: rgb(75, 93, 115);
+            padding: 15px;
+            color:#ffffff;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+        }
+.tabla-juegos {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #e6ecf5;
+            
+        }
+.tabla-juegos th, .tabla-juegos td {
+            border: 1px solid #354f8a;
+            
+            padding: 12px;
+            text-align: left;
+        }
+.tabla-juegos th {
+            background-color: #cfd9e8;
+            
+        }
+nav {
+  width: 150px;
+}
+
+.menu {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  text-align: left;
+  padding-left: 15px;
+}
