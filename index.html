@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ramón Godos">
-    <title>Mis Juegos Favoritos</title>
+    <title>Mis Juegos Favoritos - Responsive</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" media="screen"/>
 </head>
-
+<body>
     <header>
         <nav>
             <ul class="menu">
@@ -21,52 +21,60 @@
         <h1>MIS JUEGOS FAVORITOS</h1>
         <p>Lista de mis juegos favoritos</p>
     </header>
-    <body>
-    
 
-    <table class="tabla-juegos">
-        <tr>
-            <th>Título</th>
-            <th>Género</th>
-            <th>Año</th>
-        </tr>
-        <tr>
-            <td><a href="botw.html">The Legend of Zelda: Breath of the Wild</a></td>
-            <td>Aventura/Acción</td>
-            <td>2017</td>
-        </tr>
-        <tr>
-            <td><a href="totk.html">The Legend of Zelda: Tears of the Kingdom</a></td>
-            <td>Aventura/Acción</td>
-            <td>2023</td>
-        </tr>
-        <tr>
-            <td> <a href="outer.html">Outer Wilds</a></td>
-            <td>Aventura</td>
-            <td>2019</td>
-        </tr>
-        <tr>
-            <td> <a href="999.html">999: Nine Hours, Nine Persons, Nine Doors </a></td>
-            <td>Puzzle/Aventura Gráfica</td>
-            <td>2010</td>
-        </tr>
-    </table>
+    <main>
+        <div style="overflow-x: auto;">
+            <table class="tabla-juegos">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Género</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="botw.html">The Legend of Zelda: Breath of the Wild</a></td>
+                        <td>Aventura/Acción</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td><a href="totk.html">The Legend of Zelda: Tears of the Kingdom</a></td>
+                        <td>Aventura/Acción</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td><a href="outer.html">Outer Wilds</a></td>
+                        <td>Aventura</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td><a href="999.html">999: Nine Hours, Nine Persons, Nine Doors </a></td>
+                        <td>Puzzle/Aventura Gráfica</td>
+                        <td>2010</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <p> Espero que os guste esta página en la que hablo de los juegos que me gustan más (sin spoilers).
-        <br>Me gustaría que tuviera más secciones y hablando de más juegos pero de momento solo tiene esto.
-    </p>
-    <h2>¡Gracias por visitar mi página!</h2>
-    <h3>Si quieres que te avise cuando subo alguna novedad, rellena este formulario:</h3>
-    <form>
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
-        <input type="submit" value="Quiero suscribirme">   
-    </form>
-    
+        <p>Espero que os guste esta página en la que hablo de los juegos que me gustan más (sin spoilers).</p>
+        <p>Me gustaría que tuviera más secciones y hablando de más juegos pero de momento solo tiene esto.</p>
+        
+        <h2>¡Gracias por visitar mi página!</h2>
+        <h3>Si quieres que te avise cuando subo alguna novedad, rellena este formulario:</h3>
+        
+        <form class="formulario-contacto">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Quiero suscribirme" class="btn-submit">  
+        </form>
+    </main>
+
     <footer>
-    <p>© 2025 - Ramón Godos</p>
-  </footer>
+        <p>© 2025 - Ramón Godos</p>
+    </footer>
 </body>
-  
+</html>
 
 </html>
+
